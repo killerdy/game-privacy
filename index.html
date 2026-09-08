@@ -1,22 +1,206 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>游戏隐私政策</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="孤岛守望隐私政策：了解本地游戏数据、运行诊断、主动反馈及个人信息权利。">
+  <title>孤岛守望隐私政策</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #f5f7f9; color: #26313b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; line-height: 1.9; overflow-wrap: anywhere; }
+    main { max-width: 960px; margin: 40px auto; padding: 48px 56px; background: #fff; border-radius: 12px; box-shadow: 0 4px 24px #182d4510; }
+    h1, h2, h3, h4 { color: #172633; line-height: 1.5; scroll-margin-top: 24px; }
+    h1 { font-size: 30px; margin: 40px 0 24px; text-align: center; }
+    h2 { font-size: 22px; margin: 40px 0 16px; }
+    h3 { font-size: 19px; margin: 28px 0 12px; }
+    h4 { font-size: 17px; margin: 22px 0 8px; }
+    p { margin: 12px 0; }
+    a { color: #176b83; text-underline-offset: 4px; }
+    a:focus-visible { outline: 2px solid #176b83; outline-offset: 4px; }
+    .notice { padding: 24px 28px; background: #f0f6f8; border-radius: 8px; }
+    .notice h2 { margin-top: 0; }
+    .date { color: #596773; font-size: 14px; margin: 6px 0; }
+    nav { padding: 20px 28px; margin: 24px 0; background: #f7f9fa; border-radius: 8px; }
+    nav p { margin-top: 0; font-weight: 600; }
+    nav ol { padding-left: 24px; margin-bottom: 0; }
+    nav li { padding: 3px 0; }
+    .table-wrap { overflow-x: auto; margin: 20px 0; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; line-height: 1.7; }
+    th, td { border: 1px solid #dce3e8; padding: 12px; text-align: left; vertical-align: top; min-width: 90px; }
+    th { background: #eff4f6; font-weight: 600; }
+    .deletion-item { margin-left: 20px; display: list-item; list-style-type: disc; }
+    footer { margin-top: 36px; text-align: center; font-size: 14px; }
+    @media (max-width: 640px) { body { background: #fff; } main { margin: 0; padding: 24px 20px; border-radius: 0; box-shadow: none; } h1 { font-size: 26px; } h2 { font-size: 21px; } .notice, nav { padding: 18px; } th, td { padding: 9px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print { body { background: #fff; color: #000; } main { max-width: none; margin: 0; padding: 0; box-shadow: none; } nav, footer { display: none; } h2, h3, h4 { break-after: avoid; } tr { break-inside: avoid; } .table-wrap { overflow: visible; } }
+  </style>
 </head>
 <body>
-    <h1>《XXX》隐私政策</h1>
-
-    <p>更新日期：2026年9月8日</p>
-    <p>生效日期：2026年9月8日</p>
-
-    <h2>一、我们如何收集和使用个人信息</h2>
-    <p>……</p>
-
-    <h2>二、第三方SDK说明</h2>
-    <p>……</p>
-
-    <h2>三、联系我们</h2>
-    <p>……</p>
-</body>
-</html>
+<main id="top">
+<section class="notice" aria-labelledby="notice-title">
+<h2 id="notice-title">隐私保护提示</h2>
+<p>欢迎使用《孤岛守望》。本政策说明游戏数据的本地保存、性能诊断、您主动联系开发者时的信息处理方式，以及您可以行使的个人信息权利。请您阅读并理解以下内容。</p>
+<p>当前版本为离线单机游戏，无游戏账号注册、登录、充值、广告或统计 SDK。游戏进度、开局增益、设置和运行诊断记录保存在您的设备本地，不通过游戏自动上传。</p>
+<p>当前版本不申请联网、麦克风、摄像头、位置、通讯录或相册等权限。游戏在应用专属目录保存数据，无需申请读取您其他文件的权限。</p>
+<p>您可以在游戏设置中调整偏好，或通过系统清除应用数据、卸载游戏删除本地数据。如您主动向开发者发送问题反馈，可通过本政策列明的邮箱或电话提出查询、更正或删除请求。</p>
+<p>性能诊断会在本地处理设备型号、操作系统名称、画面设置、帧率及资源占用等信息。只有您主动点击复制并自行发送时，相关诊断信息才会通过您选择的渠道提供给接收方。</p>
+<p><strong>未成年人应在监护人的指导下阅读本政策、使用游戏及提交反馈。请勿通过反馈发送身份证件、精确位置等与问题无关的敏感信息。</strong></p>
+<p>请继续阅读《孤岛守望隐私政策》全文，了解处理目的、保存方式及联系我们的方法。</p>
+<p>本提示用于说明当前版本的实际处理行为，不代表您已同意未来新增的广告或其他信息处理活动。</p>
+</section>
+<p class="date"><strong>更新日期：2026年9月8日</strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong></p>
+<p class="date"><strong>生效日期：2026年9月8日</strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong></p>
+<h1><strong>孤岛守望隐私政策</strong><strong></strong></h1>
+<p>戴赟（联系地址：江苏省盐城市中南世纪城8期，以下简称“我们”）是游戏《孤岛守望》的运营者。本政策适用于当前未接入广告的离线版本，说明本地游戏数据、运行诊断以及您主动提交的反馈信息如何被处理。<strong></strong><strong></strong><strong></strong></p>
+<p>我们在此提醒您：</p>
+<p><strong>使用前请仔细阅读本政策。游戏本身不提供账号、实名认证、支付、广告或联网服务，不要求您提交姓名、手机号或身份证号码才能游玩。本政策适用于我们提供的游戏及反馈处理；您独立使用应用商店或邮件服务时，该服务提供方的处理行为还受其自身隐私规则约束。</strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong></p>
+<nav aria-label="政策目录"><p><strong>本隐私政策将帮助您了解以下内容：</strong></p><ol>
+<li><a href="#section-1"><strong>我们如何收集</strong><strong>和使用</strong><strong>您的个人信息</strong></a></li>
+<li><a href="#section-2"><strong>我们如何保存您的个人信息</strong></a></li>
+<li><a href="#section-3"><strong>我们如何使用 Cookies 和同类技术</strong></a></li>
+<li><a href="#section-4"><strong>我们如何共享、转让、公开披露您的个人信息</strong></a></li>
+<li><a href="#section-5"><strong>第三方产品或服务如何获得您的个人信息</strong></a></li>
+<li><a href="#section-6"><strong>我们如何保护您的个人信息</strong></a></li>
+<li><a href="#section-7"><strong>您如何管理您的个人信息</strong></a></li>
+<li><a href="#section-8"><strong>我们如何处理未成年人的个人信息</strong></a></li>
+<li><a href="#section-9"><strong>本隐私政策如何更新</strong></a></li>
+<li><a href="#section-10"><strong>如何联系我们</strong></a></li>
+</ol></nav>
+<h2 id="section-1">一、<strong>我们如何收集</strong><strong>和使用</strong><strong>您的个人信息</strong></h2>
+<h3><strong>（一）我们如何收集您的个人信息</strong></h3>
+<p>我们遵循必要性原则，按照以下实际功能处理信息。保存在设备本地的数据与您主动向我们提供的反馈信息分别说明。</p>
+<h4><strong>账号注册</strong></h4>
+<p>当前版本不提供账号注册或登录功能，不收集登录密码、注册手机号或账号身份信息。</p>
+<h4><strong>游戏服务</strong></h4>
+<p>游戏在应用专属目录记录当前关卡、已领取的永久开局增益、首次开始状态以及音效、画面、帧率等设置，用于下次启动时恢复相应状态。对局内单位、资源等不构成完整的对局存档。上述数据在本地处理，游戏不自动发送给开发者。</p>
+<h4><strong>实名认证</strong></h4>
+<p>当前版本未接入实名认证功能，不通过游戏收集或核验姓名、身份证件号码等身份信息。如未来版本新增相关功能，将在启用前另行说明处理规则。</p>
+<h4><strong>运行诊断与主动反馈</strong></h4>
+<p>游戏在本地记录帧率、内存占用、节点与单位数量等运行指标，用于性能排查。您打开性能诊断并进行测试时，可生成包含设备型号、操作系统名称、渲染方式、窗口尺寸、屏幕刷新率、CPU/GPU 耗时及测试结果的本地报告。点击“复制诊断数据”只将报告写入系统剪贴板，不读取剪贴板中原有内容，也不自动上传。您主动通过邮件或电话联系时，我们会接收您使用的邮箱或来电联系方式，以及您提供的问题描述、截图或诊断报告，仅用于回复和排查该问题。拒绝反馈或不发送报告不影响正常游玩。</p>
+<h4><strong>充值与广告</strong></h4>
+<p><strong>当前版本不提供充值、内购或广告功能，不收集支付信息，不向广告或统计平台发送数据。后续如接入广告，将在对应版本上线及相关处理开始前更新本政策和 SDK 清单，并依法履行告知、征求同意等义务。</strong></p>
+<h3><strong>（二）设备权限调用情况</strong></h3>
+<p>当前版本的权限与本地功能如下。设备内部运行和本地保存不等于向开发者上传个人信息。<strong></strong><strong></strong><strong></strong><strong></strong><strong></strong></p>
+<div class="table-wrap" role="region" aria-label="设备权限调用情况" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col"><strong>设备权限或功能</strong></th>
+<th scope="col"><strong>用途或现状</strong></th>
+<th scope="col"><strong>是否申请授权</strong></th>
+<th scope="col"><strong>用户管理方式</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>联网及敏感权限</td>
+<td>当前版本不使用网络、麦克风、摄像头、位置、通讯录、相册等权限</td>
+<td>不申请</td>
+<td>无需授权</td>
+</tr>
+<tr>
+<td>应用专属存储</td>
+<td>保存进度、增益、设置和诊断文件</td>
+<td>无需额外权限</td>
+<td>清除应用数据或卸载</td>
+</tr>
+<tr>
+<td>剪贴板写入</td>
+<td>主动复制诊断报告，不读取原有内容</td>
+<td>点击复制时执行</td>
+<td>不点击即不执行</td>
+</tr>
+</tbody></table></div>
+<p>当前版本没有需要您授予的上述敏感权限。您可在系统应用管理中查看应用权限和存储占用；清除应用数据会同时清除本地进度、增益、设置和诊断文件。</p>
+<h3><strong>（三）我们如何使用您的个人信息</strong></h3>
+<p>本地游戏数据仅用于运行游戏、保存进度和设置；本地诊断数据仅用于显示运行情况和排查性能问题。您主动提供的反馈及联系方式仅用于回复和处理该次反馈。</p>
+<p>我们不将上述信息用于定向广告、用户画像、跨应用追踪或出售。当前版本不进行联网用户统计。<strong></strong></p>
+<p>请仅提供处理问题所必需的信息。发送截图、日志或诊断报告前，您可以先查看内容，删除与问题无关的信息。</p>
+<p><strong>如未来改变处理目的、处理方式或个人信息种类，我们会依法更新说明，并在需要同意的情况下重新征求您的同意。</strong></p>
+<h3><strong>（四）其他规则</strong></h3>
+<p>涉及个人信息处理时，我们按照《中华人民共和国个人信息保护法》等规定确定处理依据。仅在法律明确允许不以同意为处理依据的范围内，例如履行法定职责或者法定义务所必需、紧急情况下保护自然人的生命健康和财产安全所必需等情形，依法处理必要信息；不会把本条作为无限制收集或披露信息的授权。</p>
+<h2 id="section-2">二、<strong>我们如何保存您的个人信息</strong></h2>
+<p>关卡、增益和设置保存在设备的应用专属目录内，直到您清除应用数据或卸载游戏。运行诊断在本地保存当前记录、上一轮记录及最近生成的报告，相应文件可能在后续运行或测试时被更新。游戏不自动将这些文件上传至远程服务器，Android 导出配置已关闭应用数据自动备份。</p>
+<p>您主动发送的反馈及联系方式，仅在处理问题、回复请求以及法律要求所必需的期间保留；目的实现且无继续保存依据时删除或匿名化处理。您可以随时联系我们申请删除。</p>
+<p><strong>游戏本身没有将本地游戏数据传输至境外的功能。若您选择发送邮件，邮件内容会经由您和接收方所使用的邮件服务商传输、保存，其处理地点与方式受该服务商规则及相关法律约束。本政策不将邮件服务商的处理地点描述为游戏本地存储。</strong><strong></strong></p>
+<p><strong>您可选择电话联系，或先发送不含敏感信息的问题概述，再根据排查需要决定是否提供诊断资料。</strong></p>
+<h2 id="section-3">三、<strong>我们如何使用 Cookies 和同类技术</strong><strong></strong></h2>
+<h3><strong>我们如何使用Cookies</strong></h3>
+<p>当前游戏不内嵌网页、广告或统计服务，不使用 Cookies、广告标识符或同类追踪技术。</p>
+<h3><strong>本地存储</strong></h3>
+<p><strong>游戏使用本地配置文件保存进度、开局增益和设置，使用本地文件记录性能诊断。这些文件用于实现上述功能，不用于识别跨应用活动或向您推送个性化广告。</strong></p>
+<h2 id="section-4">四、<strong>我们如何共享、转让、公开披露您的个人信息</strong></h2>
+<h3><strong>委托处理</strong></h3>
+<p>当前版本没有委托广告、统计或云存储 SDK 处理游戏数据。您选择邮件反馈时，邮件服务商为邮件传输与存储提供服务。若未来新增受托处理，我们将明确约定目的、期限、方式、信息种类及保护措施，并履行相应监督义务。</p>
+<h3><strong>共享</strong></h3>
+<p><strong>我们不向广告平台、关联公司或业务合作伙伴共享本地游戏数据。对您主动提交的反馈，不向其他个人信息处理者提供，法律另有规定或依法取得所需单独同意的除外。</strong><strong></strong></p>
+<p><strong>如需要向其他个人信息处理者提供您的信息，我们会依法告知接收方名称或姓名、联系方式、处理目的、处理方式和个人信息种类，并在需要时取得您的单独同意。</strong></p>
+<h3><strong>转让</strong></h3>
+<p>当前不存在个人信息转让安排。如因合并、分立、解散、破产等原因确需转移已持有的个人信息，我们将依法告知接收方名称或姓名和联系方式，并要求接收方继续履行保护义务；变更原处理目的、方式时，依法重新取得同意。<strong></strong></p>
+<h3><strong>公开披露</strong></h3>
+<p><strong>我们不公开披露您主动提交的反馈或联系方式；确需公开披露时，依法取得所需单独同意或履行法律规定的义务。</strong></p>
+<h3><strong>例外情况</strong></h3>
+<p>法律明确规定可不依赖同意处理信息的情形，按照本政策第一部分“其他规则”以及适用法律办理。我们仅在必要范围内处理，不扩大适用范围。</p>
+<p><strong>您通过自己选择的渠道分享截图或报告时，请避免包含他人的个人信息；如确有必要，应先取得相应授权或进行遮挡。</strong></p>
+<p><strong>经处理后无法识别特定自然人且不能复原的信息属于匿名化信息；去标识化但仍可能恢复识别的信息仍按个人信息进行保护。</strong></p>
+<h2 id="section-5">五、<strong>第三方产品或服务如何获得您的个人信息</strong></h2>
+<p>当前游戏未接入广告、登录、实名认证、支付或统计 SDK。Godot 为游戏运行引擎，当前工程没有通过该引擎配置联网遥测。未来如接入广告 SDK，我们会根据实际平台和配置公布服务商、用途、处理的数据和权限、隐私政策链接，并在启用相关处理前完成告知及依法需要的授权。</p>
+<div class="table-wrap" role="region" aria-label="第三方 SDK 清单" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col"><strong>SDK 名称</strong></th>
+<th scope="col"><strong>使用目的</strong></th>
+<th scope="col"><strong>处理的信息</strong></th>
+<th scope="col"><strong>隐私政策链接</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>当前未接入</td>
+<td>不适用</td>
+<td>不适用</td>
+<td>不适用</td>
+</tr>
+</tbody></table></div>
+<h2 id="section-6">六、<strong>我们如何保护您的个人信息</strong></h2>
+<p>我们根据实际功能采取与风险相适应的保护措施。</p>
+<p>游戏本地数据保存在应用专属目录；当前版本关闭联网和 Android 应用数据自动备份。我们不承诺本地配置或日志已经加密。对主动收到的反馈，仅在处理问题所需范围内使用，并避免无关披露。请您妥善保护设备，避免将包含个人信息的报告发送至不可信渠道。</p>
+<p><strong>任何技术措施都无法消除全部风险。如您发现可能的信息泄露或其他问题，请及时通过本政策列明的方式联系我们。我们不会以本条免除依法应承担的责任。</strong></p>
+<p><strong>如发生涉及我们处理的个人信息的安全事件，我们将依法采取补救措施，根据风险和适用要求通知有关人员及主管部门。通知包括事件情况、可能影响、已采取的措施和可供您采取的防范措施等内容。</strong><strong></strong></p>
+<h2 id="section-7">七、<strong>您如何管理您的个人信息</strong></h2>
+<p>您可以通过游戏和系统提供的功能管理本地数据，也可通过本政策列明的邮箱或电话，对我们收到的反馈信息提出查询、复制、更正、删除或撤回同意等请求。</p>
+<h3><strong>访问及更正您的个人信息</strong></h3>
+<p>您可在游戏备战界面查看关卡和增益，在“菜单—设置”查看、修改可用设置，在“菜单—性能诊断”查看诊断结果。对您曾向我们提交的反馈信息，可联系戴赟申请查阅、复制或更正。我们无法远程读取或修改仅保存在您设备上的文件。</p>
+<h3><strong>删除您的个人信息 </strong></h3>
+<p>您可通过手机系统“设置—应用—孤岛守望—存储”中的清除数据功能删除本地数据，具体名称依系统而异；也可卸载游戏。此操作会清除关卡、永久增益和偏好等，游戏不提供云端恢复。对已发送给我们的信息，出现以下情况时可联系我们申请删除：</p>
+<p class="deletion-item"><strong>处理目的已经实现、无法实现，或者不再需要相关信息；</strong><strong></strong><strong></strong></p>
+<p class="deletion-item"><strong>我们停止提供相关服务，或者保存期限届满；</strong><strong></strong><strong></strong></p>
+<p class="deletion-item"><strong>您撤回作为处理依据的同意，或者我们违反法律、行政法规或约定处理信息；</strong><strong></strong><strong></strong></p>
+<p class="deletion-item"><strong>法律、行政法规规定的其他应当删除情形。法定保存期限未届满或技术上难以删除时，依法停止除存储和采取必要安全保护措施之外的处理。</strong></p>
+<h3><strong>改变您授权同意的范围</strong></h3>
+<p>您可以停止发送反馈和诊断数据，或联系我们撤回对相关反馈处理的同意。对于仅在本地保存的游戏数据，您可停止使用并通过清除数据或卸载删除。</p>
+<p>撤回同意不影响撤回前基于同意已进行处理活动的效力。当前版本不存在广告个性化设置或敏感权限授权；未来新增功能将提供与实际处理相对应的说明和管理方式。</p>
+<h3><strong>注销账户</strong></h3>
+<p>当前版本没有游戏账号，因此没有账号注销流程。删除本地游戏数据请使用本节说明的系统清除数据或卸载方式。</p>
+<p><strong>若您曾联系开发者，删除本地应用不会同时删除已发送的邮件或反馈；您可以另行通过本政策列明的联系方式提出删除请求。</strong><strong></strong><strong></strong><strong></strong><strong></strong><strong></strong></p>
+<h3><strong>响应您的上述请求</strong></h3>
+<p>为保护您的信息，我们可在必要范围内核实请求确由您本人或合法代理人提出，例如通过原反馈邮箱核验。不会为核验而额外索取与请求无关的身份证件等信息。</p>
+<p><strong>我们不对合理的信息权利请求收取费用，并原则上在十五个工作日内回复或说明处理进度。无法满足请求时，会说明理由及可用的救济途径。</strong></p>
+<h3><strong>响应情形的例外</strong></h3>
+<p>如法律、行政法规对请求处理另有规定，或执行请求将侵害他人合法权益，我们将依法核实并说明限制的依据；不会仅凭宽泛或不相关的理由拒绝请求。</p>
+<h2 id="section-8">八、<strong>我们如何处理未成年人的个人信息</strong></h2>
+<p>我们重视未成年人的个人信息保护。当前游戏不收集出生日期、身份证件或年龄信息。未成年人应在监护人指导下阅读本政策、使用游戏及提交反馈。</p>
+<p><strong>不满十四周岁未成年人的个人信息属于敏感个人信息。若通过反馈等方式确需处理此类信息，我们将依法取得父母或其他监护人的同意，遵循特定目的、充分必要和严格保护要求。发现未经所需监护人同意收到的儿童个人信息时，我们会采取删除等适当措施。</strong><strong></strong><strong></strong></p>
+<p><strong>监护人可通过本政策列明的联系方式，就未成年人的信息提出查询、更正、删除等请求。请尽量由监护人代为反馈，并避免提供与问题无关的身份资料。</strong><strong></strong></p>
+<h2 id="section-9">九、<strong>本隐私政策如何更新</strong></h2>
+<p>功能或处理规则变化时，我们会更新本政策并标明日期，通过游戏发布页面或相应功能中的提示告知重要变化。涉及需要取得或重新取得同意的处理活动，将在相关处理开始前依法办理，继续游玩不替代依法需要的明确同意。<strong></strong></p>
+<p>广告 SDK 接入、新增账号或联网功能、数据接收方变化、处理目的或种类变化、联系方式变化等，均需结合实际情况更新。未来广告功能不适用仅描述当前离线版本的旧说明。</p>
+<p>我们还会将本隐私政策的旧版本存档，供您查阅。</p>
+<h2 id="section-10">十、<strong>如何联系我们</strong></h2>
+<p>如您对本政策或个人信息处理有问题，或需要行使有关权利，请通过以下方式联系运营者：</p>
+<p>运营者：戴赟</p>
+<p>联系地址：江苏省盐城市中南世纪城8期</p>
+<p>联系邮箱：killerdayyun@gmail.com</p>
+<p>联系电话：13636636755</p>
+<p>我们原则上在十五个工作日内回复。若您对处理结果不满意，可向有权受理的网信等监管部门投诉，或依法向有管辖权的人民法院提起诉讼。<strong></strong><strong></strong></p>
+<footer><a href="#top">返回顶部</a></footer></main></body></html>
